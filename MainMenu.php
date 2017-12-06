@@ -53,7 +53,7 @@ $account = $_SESSION['account'];
         <button type="button" class="btn btn-block">レビュー・ランキング</button>
       </div>
       <div class="example">
-        <button type="button" class="btn btn-block">その他</button>
+        <button type="button" class="btn btn-block">利用履歴</button>
       </div>
     </div>
 

@@ -5,15 +5,13 @@
 <head>
   <title>トップメニュー</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="http://153.126.145.101/liquid/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="bootflat.github.io-master/css/site.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic" rel="stylesheet" type="text/css">
 </head>
 
 <body>
   <div class="container"><br>
-    <?php
-    echo '<img src="http://153.126.145.101/WebApp/get_img.php?name=ツボツボGO"/>';
-    echo '<img src="http://153.126.145.101/WebApp/get_img.php?name=ツボツボ"/>';
-    ?><br><br>
 
     <h3>トップ</h3><br><br>
 
