@@ -34,7 +34,7 @@ $account = $_SESSION['account'];
     </div>
 
     <!-- documents -->
-    <h5><?="<p>".htmlspecialchars($account,ENT_QUOTES)."さん、こんにちは！</p>";?></h5><br>
+    <h5><?="<p>".htmlspecialchars($account,ENT_QUOTES)."さんの現在のポイントは 50 ptです．</p>";?></h5><br>
 
     <h3>利用履歴</h3>
 
@@ -53,6 +53,10 @@ $account = $_SESSION['account'];
         <div>
           <span>貸出日：</span>
           <span>2017/12/01</span>
+        </div>
+        <div>
+          <span>ポイント数：</span>
+          <span>1</span>
         </div>
 
         <form action="to_review.php">
@@ -75,6 +79,10 @@ $account = $_SESSION['account'];
           <span>貸出日：</span>
           <span>2017/12/02</span>
         </div>
+        <div>
+          <span>ポイント数：</span>
+          <span>1</span>
+        </div>
 
         <form action="to_review.php">
           <button type="submit" class="btn btn-primary">レビューする</button>
@@ -95,6 +103,10 @@ $account = $_SESSION['account'];
         <div>
           <span>貸出日：</span>
           <span>2017/12/03</span>
+        </div>
+        <div>
+          <span>ポイント数：</span>
+          <span>1</span>
         </div>
 
         <form action="to_review.php">
