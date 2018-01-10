@@ -1,14 +1,14 @@
 <?php
-// session_start();
-//
-// header("Content-type: text/html; charset=utf-8");
-//
-// // ログイン状態のチェック
-// if (!isset($_SESSION["account"])) {
-//   header("Location: login_form.php");
-//   exit();
-// }
-// $account = $_SESSION['account'];
+session_start();
+
+header("Content-type: text/html; charset=utf-8");
+
+// ログイン状態のチェック
+if (!isset($_SESSION["account"])) {
+  header("Location: login_form.php");
+  exit();
+}
+$account = $_SESSION['account'];
 
 ?>
 
@@ -40,20 +40,16 @@
     <div class="container documents">
       <form action="comfirm_review.php" method="POST">
         レーティング:
-        <select name="rating">
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-        </select></br>
+        <img src="./img/rating_star.png" height="50" width="200"></br>
         レビュー文
-        <textarea class="form-control" rows="5" name="review"></textarea></br>
-        <input type="submit" value="確認"/>
+        <textarea class="form-control" rows="5" name="review">分かりやすく、よく学ぶことができました。</textarea></br>
+        <input type="submit" value="確認" class="btn btn-info"/>
       </form>
     </div>
 
-    <a href="logout.php">ログアウト</a>
+    <div>
+      <button onclick="history.back()" class="btn btn-normal">戻る</button>
+    </div><br>
 
     <!-- footer -->
     <div class="site-footer">

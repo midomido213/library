@@ -1,14 +1,14 @@
 <?php
-// session_start();
-//
-// header("Content-type: text/html; charset=utf-8");
-//
-// // ログイン状態のチェック
-// if (!isset($_SESSION["account"])) {
-//   header("Location: login_form.php");
-//   exit();
-// }
-// $account = $_SESSION['account'];
+session_start();
+
+header("Content-type: text/html; charset=utf-8");
+
+// ログイン状態のチェック
+if (!isset($_SESSION["account"])) {
+  header("Location: login_form.php");
+  exit();
+}
+$account = $_SESSION['account'];
 
 ?>
 
@@ -39,23 +39,26 @@
     <h3>レビュー</h3>
 
     <div>
-      <div>レーティング：<?php echo htmlspecialchars($_POST['rating']) ?></div>
       <div>
-        レビュー文</br>
+        レーティング：<img src="./img/rating_star.png" height="50" width="200">
+      </div>
+      <div>
+        レビュー文：</br>
         <?php echo htmlspecialchars($_POST['review']) ?>
       </div>
-    </div>
+    </div><br>
     <div style="display:inline-flex">
-      <input type="button" onclick="history.back();" value="戻る">
-      <p>　　　</p>
+      <form action="to_review.php" method="post">
+        <!-- <input type="hidden" value="<?php //$_POST['rating'] ?>" />
+        <input type="hidden" value="<?php //$_POST['review'] ?>" /> -->
+        <input type="submit" value="戻る" class="btn btn-danger" />
+      </form>　　
       <form action="review_comp.php" method="post">
-        <input type="hidden" value="<?php $_POST['rating'] ?>" />
-        <input type="hidden" value="<?php $_POST['review'] ?>" />
-        <input type="submit" value="送信" />
+        <!-- <input type="hidden" value="<?php //$_POST['rating'] ?>" />
+        <input type="hidden" value="<?php //$_POST['review'] ?>" /> -->
+        <input type="submit" value="送信" class="btn btn-primary"/>
       </form>
     </div></br>
-
-    <a href="logout.php">ログアウト</a>
 
     <!-- footer -->
     <div class="site-footer">
