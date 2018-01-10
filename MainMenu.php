@@ -40,7 +40,8 @@ $account = $_SESSION['account'];
 
     <div class="container documents">
       <div class="example">
-        <button type="button" class="btn btn-block">利用ガイド</button>
+        <form action="guid.php">
+          <button type="button" class="btn btn-block">利用ガイド</button>
       </div>
       <div class="example">
         <button type="button" class="btn btn-block">マイライブラリ</button>
