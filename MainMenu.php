@@ -45,7 +45,9 @@ $account = $_SESSION['account'];
         </form>
       </div>
       <div class="example">
-        <button type="button" class="btn btn-block">マイライブラリ</button>
+        <form action="mylibrary.php">
+          <button type="submit" class="btn btn-block">マイライブラリ</button>
+        </form>
       </div>
       <div class="example">
         <button type="button" class="btn btn-block">蔵書検索</button>
