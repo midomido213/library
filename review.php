@@ -34,30 +34,22 @@
     </div>
 
     <!-- documents -->
-    <div>
-      <h5><?=htmlspecialchars($account,ENT_QUOTES)."さん、こんにちは！";?></h5>
-    </div>
+    <h5><?="<p>".htmlspecialchars($account,ENT_QUOTES)."さん、こんにちは！</p>";?></h5><br>
+
+    <h3>レビュー一覧</h3>
 
     <div class="container documents">
-      <div class="example">
-        <button type="button" class="btn btn-block">利用ガイド</button>
+      <div>
+        レビュー1
       </div>
-      <div class="example">
-        <button type="button" class="btn btn-block">マイライブラリ</button>
+      <div>
+        レビュー2
       </div>
-      <div class="example">
-        <button type="button" class="btn btn-block">蔵書検索</button>
+      <div>
+        レビュー3
       </div>
-      <div class="example">
-        <button type="button" class="btn btn-block">電子ジャーナル</button>
-      </div>
-      <div class="example">
-        <button type="button" class="btn btn-block">レビュー・ランキング</button>
-      </div>
-      <div class="example">
-        <form action="history.php">
-          <button type="submit" class="btn btn-block">利用履歴</button>
-        </form>
+      <div>
+        レビュー4
       </div>
     </div>
 

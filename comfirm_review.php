@@ -34,32 +34,26 @@
     </div>
 
     <!-- documents -->
-    <div>
-      <h5><?=htmlspecialchars($account,ENT_QUOTES)."さん、こんにちは！";?></h5>
-    </div>
+    <h5><?="<p>".htmlspecialchars($account,ENT_QUOTES)."さん、こんにちは！</p>";?></h5><br>
 
-    <div class="container documents">
-      <div class="example">
-        <button type="button" class="btn btn-block">利用ガイド</button>
-      </div>
-      <div class="example">
-        <button type="button" class="btn btn-block">マイライブラリ</button>
-      </div>
-      <div class="example">
-        <button type="button" class="btn btn-block">蔵書検索</button>
-      </div>
-      <div class="example">
-        <button type="button" class="btn btn-block">電子ジャーナル</button>
-      </div>
-      <div class="example">
-        <button type="button" class="btn btn-block">レビュー・ランキング</button>
-      </div>
-      <div class="example">
-        <form action="history.php">
-          <button type="submit" class="btn btn-block">利用履歴</button>
-        </form>
+    <h3>レビュー</h3>
+
+    <div>
+      <div>レーティング：<?php echo htmlspecialchars($_POST['rating']) ?></div>
+      <div>
+        レビュー文</br>
+        <?php echo htmlspecialchars($_POST['review']) ?>
       </div>
     </div>
+    <div style="display:inline-flex">
+      <input type="button" onclick="history.back();" value="戻る">
+      <p>　　　</p>
+      <form action="review_comp.php" method="post">
+        <input type="hidden" value="<?php $_POST['rating'] ?>" />
+        <input type="hidden" value="<?php $_POST['review'] ?>" />
+        <input type="submit" value="送信" />
+      </form>
+    </div></br>
 
     <a href="logout.php">ログアウト</a>
 

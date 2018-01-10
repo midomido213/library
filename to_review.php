@@ -34,31 +34,23 @@
     </div>
 
     <!-- documents -->
-    <div>
-      <h5><?=htmlspecialchars($account,ENT_QUOTES)."さん、こんにちは！";?></h5>
-    </div>
+    <h5><?="<p>".htmlspecialchars($account,ENT_QUOTES)."さん、こんにちは！</p>";?></h5><br>
 
+    <h3>レビュー</h3>
     <div class="container documents">
-      <div class="example">
-        <button type="button" class="btn btn-block">利用ガイド</button>
-      </div>
-      <div class="example">
-        <button type="button" class="btn btn-block">マイライブラリ</button>
-      </div>
-      <div class="example">
-        <button type="button" class="btn btn-block">蔵書検索</button>
-      </div>
-      <div class="example">
-        <button type="button" class="btn btn-block">電子ジャーナル</button>
-      </div>
-      <div class="example">
-        <button type="button" class="btn btn-block">レビュー・ランキング</button>
-      </div>
-      <div class="example">
-        <form action="history.php">
-          <button type="submit" class="btn btn-block">利用履歴</button>
-        </form>
-      </div>
+      <form action="comfirm_review.php" method="POST">
+        レーティング:
+        <select name="rating">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select></br>
+        レビュー文
+        <textarea class="form-control" rows="5" name="review"></textarea></br>
+        <input type="submit" value="確認"/>
+      </form>
     </div>
 
     <a href="logout.php">ログアウト</a>
