@@ -33,24 +33,6 @@ $account = $_SESSION['account'];
     </div>
   </div>
 
-  <h3>利用ガイド</h3>
+    <h3>電子ジャーナル</h3>
 
-  <img src="./img/無題.png" class="img-rounded img-responsive">
-  <img src="./img/無題2.png" class="img-rounded img-responsive">
-  <img src="./img/無題3.png" class="img-rounded img-responsive">
-  <img src="./img/無題4.png" class="img-rounded img-responsive">
-  <img src="./img/無題5.png" class="img-rounded img-responsive">
-  <img src="./img/無題6.png" class="img-rounded img-responsive">
-  <img src="./img/無題7.png" class="img-rounded img-responsive">
-  <img src="./img/無題8.png" class="img-rounded img-responsive">
-
-  <div>
-    <button onclick="history.back()" class="btn btn-normal">戻る</button>
-  </div><br>
-
-  <!-- footer -->
-  <div class="site-footer">
-    <p>© 2017 岩手県立大学 ソフトウェア情報学部 佐々木研 D-9-e</p>
-  </div>
-</body>
-</html>
+    <h5>電子ジャーナルの閲覧は学内限定であるため，メディアセンターと連携すれば見れるようになります．</h5>
