@@ -28,8 +28,8 @@ $account = $_SESSION['account'];
     <!-- header -->
     <div class="container">
       <div class="col-md-8">
-        <h3>Myライブラリーアプリ</h3>
         <h4>岩手県立大学メディアセンター</h4>
+        <img src="./img/1.png" width="700" height="150">
       </div>
     </div>
 
