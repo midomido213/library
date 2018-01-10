@@ -50,7 +50,7 @@ $account = $_SESSION['account'];
         <button type="button" class="btn btn-block">蔵書検索</button>
       </div>
       <div class="example">
-        <button type="button" class="btn btn-block">電子ジャーナル</button>
+        <button type="button" onclick="location.href='http://www2.iwate-pu.ac.jp/office/library/zosyo/online_j.html'" class="btn btn-block">電子ジャーナル</button>
       </div>
       <div class="example">
         <button type="button" class="btn btn-block">レビュー・ランキング</button>
