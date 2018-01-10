@@ -41,7 +41,7 @@ $account = $_SESSION['account'];
     <div class="container documents">
       <div class="example">
         <form action="guid.php">
-          <button type="button" class="btn btn-block">利用ガイド</button>
+          <button type="submit" class="btn btn-block">利用ガイド</button>
         </form>
       </div>
       <div class="example">
