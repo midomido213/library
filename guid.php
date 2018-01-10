@@ -35,14 +35,14 @@ $account = $_SESSION['account'];
 
   <h3>利用ガイド</h3>
 
-  <img src="./img/無題.png">
-  <img src="./img/無題2.png">
-  <img src="./img/無題3.png">
-  <img src="./img/無題4.png">
-  <img src="./img/無題5.png">
-  <img src="./img/無題6.png">
-  <img src="./img/無題7.png">
-  <img src="./img/無題8.png">
+  <img src="./img/無題.png" class="img-rounded img-responsive">
+  <img src="./img/無題2.png" class="img-rounded img-responsive">
+  <img src="./img/無題3.png" class="img-rounded img-responsive">
+  <img src="./img/無題4.png" class="img-rounded img-responsive">
+  <img src="./img/無題5.png" class="img-rounded img-responsive">
+  <img src="./img/無題6.png" class="img-rounded img-responsive">
+  <img src="./img/無題7.png" class="img-rounded img-responsive">
+  <img src="./img/無題8.png" class="img-rounded img-responsive">
 
   <div>
     <button onclick="history.back()" class="btn btn-normal">戻る</button>
