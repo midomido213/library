@@ -51,7 +51,9 @@ $account = $_SESSION['account'];
         <button type="button" class="btn btn-block">蔵書検索</button>
       </div>
       <div class="example">
-        <button type="button" class="btn btn-block" onClick="location.href='http://www2.iwate-pu.ac.jp/office/library/zosyo/online_j.html'">電子ジャーナル</button>
+        <form action="journal.php">
+          <button type="submit" class="btn btn-block">電子ジャーナル</button>
+        </form>
       </div>
       <div class="example">
         <button type="button" class="btn btn-block">レビュー・ランキング</button>
