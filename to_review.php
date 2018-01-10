@@ -29,7 +29,7 @@ $account = $_SESSION['account'];
     <div class="container">
       <div class="col-md-8">
         <h4>岩手県立大学メディアセンター</h4>
-        <img src="./img/1.png" width="700" height="150">
+        <img src="./img/1.png" class="img-rounded img-responsive">
       </div>
     </div>
 
