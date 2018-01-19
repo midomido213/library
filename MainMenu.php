@@ -34,11 +34,11 @@ $account = $_SESSION['account'];
     </div>
 
     <!-- documents -->
-    <div>
-      <h5><?=htmlspecialchars($account,ENT_QUOTES)."さん、こんにちは！";?></h5>
-    </div>
-
     <div class="container documents">
+      <div>
+        <h5><?=htmlspecialchars($account,ENT_QUOTES)."さん、こんにちは！";?></h5>
+      </div>
+
       <div class="example">
         <form action="guid.php">
           <button type="submit" class="btn btn-block">利用ガイド</button>
@@ -65,10 +65,9 @@ $account = $_SESSION['account'];
           <button type="submit" class="btn btn-block">ポイント履歴</button>
         </form>
       </div>
+
+      <a href="logout.php">ログアウト</a>
     </div>
-
-    <a href="logout.php">ログアウト</a>
-
     <!-- footer -->
     <div class="site-footer">
       <p>© 2017 岩手県立大学 ソフトウェア情報学部 佐々木研 D-9-e</p>
