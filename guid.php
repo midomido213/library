@@ -29,24 +29,27 @@ $account = $_SESSION['account'];
   <div class="container">
     <div class="col-md-8">
       <h4>岩手県立大学メディアセンター</h4>
-      <img src="./img/1.png" width="700" height="150">
+      <img src="./img/1.png" class="img-rounded img-responsive">
     </div>
   </div>
 
   <h3>利用ガイド</h3>
 
-  <img src="./img/無題.png" class="img-rounded img-responsive">
-  <img src="./img/無題2.png" class="img-rounded img-responsive">
-  <img src="./img/無題3.png" class="img-rounded img-responsive">
-  <img src="./img/無題4.png" class="img-rounded img-responsive">
-  <img src="./img/無題5.png" class="img-rounded img-responsive">
-  <img src="./img/無題6.png" class="img-rounded img-responsive">
-  <img src="./img/無題7.png" class="img-rounded img-responsive">
-  <img src="./img/無題8.png" class="img-rounded img-responsive">
+  <div class="container documents">
 
-  <div>
-    <button onclick="history.back()" class="btn btn-normal">戻る</button>
-  </div><br>
+    <img src="./img/無題.png" class="img-rounded img-responsive">
+    <img src="./img/無題2.png" class="img-rounded img-responsive">
+    <img src="./img/無題3.png" class="img-rounded img-responsive">
+    <img src="./img/無題4.png" class="img-rounded img-responsive">
+    <img src="./img/無題5.png" class="img-rounded img-responsive">
+    <img src="./img/無題6.png" class="img-rounded img-responsive">
+    <img src="./img/無題7.png" class="img-rounded img-responsive">
+    <img src="./img/無題8.png" class="img-rounded img-responsive">
+
+    <div>
+      <button onclick="history.back()" class="btn btn-normal">戻る</button>
+    </div><br>
+  </div>
 
   <!-- footer -->
   <div class="site-footer">
