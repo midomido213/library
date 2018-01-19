@@ -33,13 +33,14 @@ header('X-FRAME-OPTIONS: SAMEORIGIN');
         <img src="./img/1.png" class="img-rounded img-responsive">
       </div>
     </div>
-    
-    <div class="container documents">
-    <h3>ログイン</h3><br><br>
 
+    <div class="container documents">
+    <h3>ログイン</h3><br>
+
+    <p style="color:red">※デモ版なのでそのままログインしてください。</P>
     <form action="login_check.php" method="post">
-      <p>ユーザID：<input type="text" name="account" size="25" value="test" class="form-control" /></p>
-      <p>パスワード：<input type="password" name="password" size="25" value="test" class="form-control" /></p><br><br>
+      <p>ユーザID：<input type="text" name="account" size="25" value="test" class="form-control" readonly="readonly"/></p>
+      <p>パスワード：<input type="password" name="password" size="25" value="test" class="form-control" readonly="readonly"/></p><br><br>
       <input type="hidden" name="token" value="<?=$token?>">
       <input type="submit" value="ログイン" class="btn btn-primary" onclick="check()" />
     </form><br>
