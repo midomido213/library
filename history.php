@@ -36,7 +36,9 @@ $account = $_SESSION['account'];
     <div class="container documents">
       <h3>所持ポイント</h3>
       <h5><?="<p>".htmlspecialchars($account,ENT_QUOTES)."さんの現在のポイントは 50 ptです．</p>";?></h5><br>
-      <button type="button" class="btn btn-info">ポイント交換申請</button>
+      <form action="point_exchange.php">
+        <button type="submit" class="btn btn-info">ポイント交換申請</button>
+      </form>
     </div>
 
     <!-- documents -->
@@ -124,7 +126,7 @@ $account = $_SESSION['account'];
       <div>
         <button onclick="history.back()" class="btn btn-normal">戻る</button>
       </div><br>
-      
+
     </div>
     <!-- footer -->
     <div class="site-footer">
