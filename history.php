@@ -33,15 +33,17 @@ $account = $_SESSION['account'];
       </div>
     </div>
 
-    <!-- documents -->
-    <h5><?="<p>".htmlspecialchars($account,ENT_QUOTES)."さんの現在のポイントは 50 ptです．</p>";?></h5><br>
-
-    <h3>利用履歴</h3>
-
     <div class="container documents">
-      <div>
-        <div>利用履歴1</div>
+      <h3>所持ポイント</h3>
+      <h5><?="<p>".htmlspecialchars($account,ENT_QUOTES)."さんの現在のポイントは 50 ptです．</p>";?></h5><br>
+      <button type="button" class="btn btn-info">ポイント交換申請</button>
+    </div>
 
+    <!-- documents -->
+    <div class="container documents">
+      <h3>ポイント履歴</h3>
+      <div>
+        <div>ポイント履歴1</div>
         <div>
           <span>書名　：</span>
           <span>Lean UX:アジャイルなチームによるプロダクト開発<span>
@@ -62,10 +64,15 @@ $account = $_SESSION['account'];
         <form action="to_review.php">
           <button type="submit" class="btn btn-primary">レビューする</button>
         </form>
-      </div>
+      </div><br>
 
       <div>
-        <div>利用履歴2</div>
+        <div>ポイント履歴2</div>
+        <div>来館ポイント:1</div>
+      </div><br>
+
+      <div>
+        <div>利用履歴3</div>
 
         <div>
           <span>書名　：</span>
@@ -87,10 +94,10 @@ $account = $_SESSION['account'];
         <form action="to_review.php">
           <button type="submit" class="btn btn-primary">レビューする</button>
         </form>
-      </div>
+      </div><br>
 
       <div>
-        <div>利用履歴3</div>
+        <div>利用履歴4</div>
 
         <div>
           <span>書名　：</span>
@@ -112,7 +119,7 @@ $account = $_SESSION['account'];
         <form action="to_review.php">
           <button type="submit" class="btn btn-primary">レビューする</button>
         </form>
-      </div>
+      </div><br>
 
     </div>
 
