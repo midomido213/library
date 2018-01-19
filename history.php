@@ -18,7 +18,7 @@ $account = $_SESSION['account'];
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootflat.github.io-master/css/site.min.css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic" rel="stylesheet" type="text/css">
 
@@ -42,8 +42,8 @@ $account = $_SESSION['account'];
     <!-- documents -->
     <div class="container documents">
       <h3>ポイント履歴</h3>
-      <div>
-        <div>ポイント履歴1</div>
+      <div class="point">
+        <div><h5>ポイント履歴1</h5></div>
         <div>
           <span>書名　：</span>
           <span>Lean UX:アジャイルなチームによるプロダクト開発<span>
@@ -66,13 +66,13 @@ $account = $_SESSION['account'];
         </form>
       </div><br>
 
-      <div>
-        <div>ポイント履歴2</div>
+      <div class="point">
+        <div><h5>ポイント履歴2</h5></div>
         <div>来館ポイント:1</div>
       </div><br>
 
-      <div>
-        <div>利用履歴3</div>
+      <div class="point">
+        <div><h5>ポイント履歴3</h5></div>
 
         <div>
           <span>書名　：</span>
@@ -96,8 +96,8 @@ $account = $_SESSION['account'];
         </form>
       </div><br>
 
-      <div>
-        <div>利用履歴4</div>
+      <div class="point">
+        <div><h5>ポイント履歴4</h5></div>
 
         <div>
           <span>書名　：</span>
@@ -121,12 +121,11 @@ $account = $_SESSION['account'];
         </form>
       </div><br>
 
+      <div>
+        <button onclick="history.back()" class="btn btn-normal">戻る</button>
+      </div><br>
+      
     </div>
-
-    <div>
-      <button onclick="history.back()" class="btn btn-normal">戻る</button>
-    </div><br>
-
     <!-- footer -->
     <div class="site-footer">
       <p>© 2017 岩手県立大学 ソフトウェア情報学部 佐々木研 D-9-e</p>

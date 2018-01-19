@@ -1,3 +1,11 @@
 body.main{
 
 }
+
+div.point{
+  background-color: rgba(211,211,211,0.5);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  padding: 5px;
+}
