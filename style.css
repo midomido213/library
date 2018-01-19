@@ -9,3 +9,8 @@ div.point{
   -moz-border-radius: 10px;
   padding: 5px;
 }
+
+img.ranking{
+  height: 200px;
+  width: 150px;
+}

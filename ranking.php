@@ -37,12 +37,58 @@ $account = $_SESSION['account'];
     <div class="container documents">
       <h3>レビュー・ランキング</h3>
 
-
-
       <div>
-        <button onclick="history.back()" class="btn btn-normal">戻る</button>
-      </div><br>
+        <div>貸出冊数ランキング</div>
+        <div>
+          <div>1位</div>
+          <div>
+            <img src="./img/ranking1.png" class="ranking"/>
+          </div>
+          <div>
+            <span>書名　：</span>
+            <span>Lean UX:アジャイルなチームによるプロダクト開発<span>
+          </div>
+          <div>
+            <span>著者　：</span>
+            <span>ジェフ・ゴーセルフ, ジョシュ・セイデン；児島修訳</span>
+          </div>
+        </div>
 
+        <div>
+          <div>2位</div>
+          <div>
+            <img src="./img/ranking2.png" class="ranking"/>
+          </div>
+          <div>
+            <span>書名　：</span>
+            <span>Processingプログラミングで学ぶ情報表現入門<span>
+          </div>
+          <div>
+            <span>著者　：</span>
+            <span>美馬義亮</span>
+          </div>
+        </div>
+
+        <div>
+          <div>3位</div>
+          <div>
+            <img src="./img/ranking3.png" class="ranking"/>
+          </div>
+          <div>
+            <span>書名　：</span>
+            <span>Rによる自動データ収集 : Webスクレイピングとテキストマイニングの実践ガイド<span>
+          </div>
+          <div>
+            <span>著者　：</span>
+            <span>Simon Munzert [ほか] 原著 ; 石田基広 [ほか] 訳</span>
+          </div>
+        </div>
+
+        <div>
+          <button onclick="history.back()" class="btn btn-normal">戻る</button>
+        </div><br>
+
+      </div>
     </div>
     <!-- footer -->
     <div class="site-footer">
