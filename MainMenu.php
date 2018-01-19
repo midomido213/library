@@ -60,7 +60,9 @@ $account = $_SESSION['account'];
         </form>
       </div>
       <div class="example">
-        <button type="button" class="btn btn-block">レビュー・ランキング</button>
+        <form action="ranking.php">
+          <button type="submit" class="btn btn-block">レビュー・ランキング</button>
+        </form>
       </div>
       <div class="example">
         <form action="history.php">
