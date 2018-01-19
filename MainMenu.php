@@ -50,7 +50,9 @@ $account = $_SESSION['account'];
         </form>
       </div>
       <div class="example">
-        <button type="button" class="btn btn-block">蔵書検索</button>
+        <form action="http://libipu.iwate-pu.ac.jp/mylimedio/search/search-input.do?mode=comp" >
+          <button type="submit" class="btn btn-block">蔵書検索</button>
+        </form>
       </div>
       <div class="example">
         <form action="journal.php">

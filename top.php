@@ -12,6 +12,13 @@
 
 <body>
   <div class="container"><br>
+    <!-- header -->
+    <div class="container">
+      <div class="col-md-8">
+        <h4>岩手県立大学メディアセンター</h4>
+        <img src="./img/1.png" class="img-rounded img-responsive">
+      </div>
+    </div>
 
     <h3>トップ</h3><br><br>
 
@@ -19,9 +26,9 @@
       <input type="submit" value="ログイン"  class="btn btn-primary" onclick="check()"/>
     </form><br>
 
-    <form action="create_account.php" method="post">
+    <!-- <form action="create_account.php" method="post">
       <input type="submit" value="アカウント登録"  class="btn btn-primary" onclick="check()"/>
-    </form>
+    </form> -->
 
   </div>
 </body>

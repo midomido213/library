@@ -33,7 +33,15 @@ session_destroy();
 </head>
 
 <body>
-  <div class="container"><br>
+  <!-- header -->
+  <div class="container">
+    <div class="col-md-8">
+      <h4>岩手県立大学メディアセンター</h4>
+      <img src="./img/1.png" class="img-rounded img-responsive">
+    </div>
+  </div>
+
+  <div class="container documents"><br>
 
     <?php
     echo "<p>ログアウトしました。</p>";
