@@ -18,7 +18,7 @@ $account = $_SESSION['account'];
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootflat.github.io-master/css/site.min.css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic" rel="stylesheet" type="text/css">
 
@@ -35,19 +35,18 @@ $account = $_SESSION['account'];
 
     <!-- documents -->
     <div class="container documents">
-      <h5><?="<p>".htmlspecialchars($account,ENT_QUOTES)."さん、こんにちは！</p>";?></h5><br>
-      <h3>レビュー</h3>
-      <form action="comfirm_review.php" method="POST">
-        レーティング:
-        <img src="./img/rating_star.png" height="50" width="200"></br>
-        レビュー文
-        <textarea class="form-control" rows="5" name="review">分かりやすく、よく学ぶことができました。</textarea></br>
-        <input type="submit" value="確認" class="btn btn-info"/>
-      </form>
+      <h3>レビュー送信完了</h3>
 
       <div>
-        <button onclick="history.back()" class="btn btn-normal">戻る</button>
+        <p>レビューを送信しました。</p>
+      </div>
+
+      <div>
+        <form action="MainMenu.php">
+          <button type="submit" class="btn btn-normal">メインメニューへ戻る</button>
+        </form>
       </div><br>
+
     </div>
     <!-- footer -->
     <div class="site-footer">
