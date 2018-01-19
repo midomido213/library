@@ -58,7 +58,7 @@ $account = $_SESSION['account'];
       </div>
       <div class="example">
         <form action="history.php">
-          <button type="submit" class="btn btn-block">利用履歴</button>
+          <button type="submit" class="btn btn-block">ポイント履歴</button>
         </form>
       </div>
     </div>
